@@ -1,0 +1,130 @@
+{
+  "accounts": [
+    {
+      "id": "8aa16fa3-7bab-47ed-9760-31f447b393d3",
+      "nom": "pp;;p",
+      "prenom": "/;o«igh",
+      "email": "f36958193@gmail.com",
+      "photo": null,
+      "createdAt": "2026-09-05T03:08:29.467Z"
+    }
+  ],
+  "dishes": [
+    {
+      "id": 1,
+      "name": "Club Sandwich",
+      "desc": "Poulet grillé, bacon, œuf, crudités, pain toasté",
+      "price": 2500,
+      "available": true,
+      "image": null,
+      "section": "exterieur"
+    },
+    {
+      "id": 2,
+      "name": "Sandwich Poulet Braisé",
+      "desc": "Poulet mariné maison, salade, sauce piquante douce",
+      "price": 2000,
+      "available": true,
+      "image": null,
+      "section": "exterieur"
+    },
+    {
+      "id": 3,
+      "name": "Sandwich Thon",
+      "desc": "Thon, œuf dur, mayonnaise, crudités fraîches",
+      "price": 1800,
+      "available": true,
+      "image": null,
+      "section": "exterieur"
+    },
+    {
+      "id": 4,
+      "name": "Croque-Monsieur",
+      "desc": "Jambon, fromage fondu, pain de mie doré",
+      "price": 1500,
+      "available": true,
+      "image": null,
+      "section": "exterieur"
+    },
+    {
+      "id": 5,
+      "name": "Cappuccino",
+      "desc": "Café espresso, mousse de lait onctueuse",
+      "price": 1000,
+      "available": true,
+      "image": null,
+      "section": "exterieur"
+    },
+    {
+      "id": 6,
+      "name": "Café Latte",
+      "desc": "Espresso allongé au lait chaud",
+      "price": 1000,
+      "available": true,
+      "image": null,
+      "section": "exterieur"
+    },
+    {
+      "id": 7,
+      "name": "Jus de bissap maison",
+      "desc": "Infusé au gingembre, servi frais",
+      "price": 800,
+      "available": true,
+      "image": null,
+      "section": "exterieur"
+    },
+    {
+      "id": 8,
+      "name": "Assiette Gourmande Sandwichs & Tasses",
+      "desc": "Trois mini-sandwichs assortis + boisson chaude au choix, salon privé",
+      "price": 6000,
+      "available": true,
+      "image": null,
+      "section": "vip"
+    },
+    {
+      "id": 9,
+      "name": "Sandwich Saumon Fumé",
+      "desc": "Saumon fumé, avocat, pain complet, salon privé",
+      "price": 4000,
+      "available": true,
+      "image": null,
+      "section": "vip"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "accountEmail": "f36958193@gmail.com",
+      "clientName": "/;o«igh pp;;p",
+      "clientPhoto": null,
+      "items": [
+        {
+          "name": "Club Sandwich",
+          "price": 2500,
+          "qty": 1
+        },
+        {
+          "name": "Jus de bissap maison",
+          "price": 800,
+          "qty": 1
+        }
+      ],
+      "total": 3300,
+      "mode": "surplace",
+      "table": "5",
+      "address": "",
+      "phone": "0158085197",
+      "note": "KILLHKIL",
+      "status": "acceptee",
+      "adminMessage": "Commande confirmée.",
+      "date": "05/09/2026 04:09:23"
+    }
+  ],
+  "reservations": [],
+  "counters": {
+    "dish": 10,
+    "order": 2,
+    "reservation": 1
+  }
+}
