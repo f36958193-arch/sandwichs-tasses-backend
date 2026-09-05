@@ -1,0 +1,12 @@
+{
+  "name": "sandwichs-tasses-backend",
+  "version": "1.0.0",
+  "description": "Backend API pour l'application Sandwichs & Tasses",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
